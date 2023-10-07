@@ -1,0 +1,82 @@
+.footer{
+  
+    background: wheat;
+    color:#000;
+    font-size: 17px;
+   
+}
+
+.footer-cover{
+    margin:auto;
+    width: 90%;
+    padding: 20px;
+}
+
+
+.container-footer{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    grid-gap:30px;
+   }
+
+
+
+.appstore{
+    width: 100px;
+    mix-blend-mode: multiply;
+}
+
+.googleplay{
+    width:125px;
+    mix-blend-mode: multiply;
+}
+
+.logo-marks{
+    display:flex;
+    align-items: center;
+    
+}
+
+.useful{
+    display: grid;
+   grid-template-columns: 1fr; 
+}
+
+
+.address{
+    display: flex;
+    flex-direction: column;
+}
+
+h5{
+ font-size: 20px;
+}
+
+
+.useful a{
+    text-decoration: none;
+    color: #000;
+    line-height: 1.3;
+}
+
+.media{
+    display: flex;
+    gap:10px
+}
+
+
+.fa-facebook, .fa-whatsapp, .fa-twitter, .fa-instagram, .fa-linkedin{
+    border: 1px solid dimgrey;
+    padding: 3px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+ 
+  .address .fa{
+    line-height: 1.4;
+  }
+ 
+  .address i{
+    margin: 5px;
+  }
+
